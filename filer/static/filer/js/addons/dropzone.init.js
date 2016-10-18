@@ -133,7 +133,7 @@ django.jQuery(function ($) {
                             'height=500,width=800,resizable=yes,scrollbars=yes'
                         ).focus();
                     });
-                $('.field-hero_image .filerFile .dz-name').html($editLink);
+                inputId.parent().parent().find('.dz-name').html($editLink);
 
             },
             error: function (file, response) {
